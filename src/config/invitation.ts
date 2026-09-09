@@ -1,0 +1,70 @@
+import type { InvitationConfig } from '../types/invitation';
+
+export const invitationConfig: InvitationConfig = {
+  babyName: "علی احمد",
+  heroTitle: "به نام خدا",
+  heroSubtitle: "به جشن تولد علی احمد دعوتید",
+  heroHintText: "برای دیدن عکس، صفحه را لمس و پاک کنید",
+  
+  countdownTitle: "لحظه‌شماری برای دیدن روی ماه شما",
+  countdownFinishedMessage: "جشن آغاز شده است! منتظر دیدارتان هستیم ✨",
+  countdownTargetDate: "2026-10-15T18:00:00", // تاریخ قابل تنظیم برای countdown (مثلاً ۱۵ اکتبر ۲۰۲۶ ساعت ۱۸:۰۰)
+  
+  persianDate: "پنج‌شنبه ۲۴ مهر ۱۴۰۵",
+  gregorianDate: "۱۵ اکتبر ۲۰۲۶",
+  eventTime: "از ساعت ۱۸:۰۰ الی ۲۲:۰۰",
+  receptionText: "به صرف شام و پذیرایی",
+  
+  venueName: "تالار تشریفات همایونی",
+  addressTitle: "منتظر دیدار شما هستیم",
+  addressSubTitle: "نشانی مراسم",
+  address: "تهران، خیابان فرشته، تالار تشریفات همایونی، سالن زمرد",
+  
+  googleMapsUrl: "https://maps.google.com/?q=Tehran",
+  wazeUrl: "https://waze.com/ul?ll=35.6892,51.3890&navigate=yes",
+  neshanUrl: "https://neshan.org/maps",
+  
+  closingMessage: "اگر افتخار میزبانی حضرتعالی را نداشتیم لطفاً اطلاع دهید",
+  closingSubtext: "با تشکر فراوان",
+  
+  heroImage: "/images/hero.jpg",
+  
+  galleryImages: [
+    {
+      id: 1,
+      url: "/images/hero.jpg",
+      alt: "عکس نوزاد علی احمد 1",
+      caption: "روی ماه فرشته کوچولو"
+    },
+    {
+      id: 2,
+      url: "/images/gallery-1.jpg",
+      alt: "عکس نوزاد علی احمد 2",
+      caption: "لبخند شیرین"
+    },
+    {
+      id: 3,
+      url: "/images/gallery-2.jpg",
+      alt: "عکس نوزاد علی احمد 3",
+      caption: "خواب ناز"
+    },
+    {
+      id: 4,
+      url: "/images/gallery-3.jpg",
+      alt: "عکس نوزاد علی احمد 4",
+      caption: "شادی و بازی"
+    },
+    {
+      id: 5,
+      url: "/images/gallery-4.jpg",
+      alt: "عکس نوزاد علی احمد 5",
+      caption: "قدم‌های کوچک"
+    },
+    {
+      id: 6,
+      url: "/images/gallery-5.jpg",
+      alt: "عکس نوزاد علی احمد 6",
+      caption: "ستاره کوچک خانه"
+    }
+  ]
+};
