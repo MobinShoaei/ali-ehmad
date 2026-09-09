@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Calendar, Clock, Utensils, Star, MapPin } from 'lucide-react';
+import { Calendar, Clock, Utensils, MapPin } from 'lucide-react';
 import type { InvitationConfig } from '../../types/invitation';
 
 interface EventDetailsProps {
