@@ -35,7 +35,7 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
           <span>آلبوم خاطرات</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold baby-gradient-text">
-          گالری تصاویر علی احمد
+          گالری تصاویر علی احماد
         </h2>
         <p className="text-slate-500 text-sm mt-1">
           گوشه‌هایی از لحظات شیرین و دوست‌داشتنی فرشته ما
@@ -101,11 +101,10 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`h-2.5 rounded-full transition-all duration-300 ${
-              index === currentIndex
+            className={`h-2.5 rounded-full transition-all duration-300 ${index === currentIndex
                 ? 'w-8 bg-sky-600'
                 : 'w-2.5 bg-sky-200 hover:bg-sky-300'
-            }`}
+              }`}
             aria-label={`رفتن به تصویر ${index + 1}`}
           />
         ))}
@@ -117,11 +116,10 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
           <button
             key={img.id}
             onClick={() => setCurrentIndex(idx)}
-            className={`relative rounded-xl overflow-hidden aspect-square border-2 transition-all ${
-              idx === currentIndex
+            className={`relative rounded-xl overflow-hidden aspect-square border-2 transition-all ${idx === currentIndex
                 ? 'border-sky-500 scale-105 shadow-md'
                 : 'border-transparent opacity-60 hover:opacity-100'
-            }`}
+              }`}
           >
             <img src={img.url} alt={img.alt} className="w-full h-full object-cover" />
           </button>

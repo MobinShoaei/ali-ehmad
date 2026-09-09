@@ -13,10 +13,10 @@ export const Countdown: React.FC<CountdownProps> = ({ config }) => {
   );
 
   const units = [
-    { label: 'روز', value: days },
-    { label: 'ساعت', value: hours },
-    { label: 'دقیقه', value: minutes },
     { label: 'ثانیه', value: seconds },
+    { label: 'دقیقه', value: minutes },
+    { label: 'ساعت', value: hours },
+    { label: 'روز', value: days },
   ];
 
   return (

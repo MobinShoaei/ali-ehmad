@@ -1,6 +1,6 @@
-# کارت دعوت دیجیتال تولد نوزاد — علی احمد 🎈👶
+# کارت دعوت دیجیتال تولد نوزاد — علی احماد 🎈👶
 
-کارت دعوت دیجیتال تک‌صفحه‌ای (Single Page Application) برای جشن تولد نوزاد («علی احمد») پیاده‌سازی شده با **React**، **TypeScript**، **Vite**، **Tailwind CSS** و **Framer Motion**.
+کارت دعوت دیجیتال تک‌صفحه‌ای (Single Page Application) برای جشن تولد نوزاد («علی احماد») پیاده‌سازی شده با **React**، **TypeScript**، **Vite**، **Tailwind CSS** و **Framer Motion**.
 
 ---
 
@@ -47,9 +47,9 @@
 
 ```typescript
 export const invitationConfig: InvitationConfig = {
-  babyName: "علی احمد",
+  babyName: "علی احماد",
   heroTitle: "به نام خدا",
-  heroSubtitle: "به جشن تولد علی احمد دعوتید",
+  heroSubtitle: "به جشن تولد علی احماد دعوتید",
   heroHintText: "برای دیدن عکس، صفحه را لمس و پاک کنید",
   
   countdownTitle: "لحظه‌شماری برای دیدن روی ماه شما",

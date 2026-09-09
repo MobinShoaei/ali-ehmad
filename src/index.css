@@ -1,18 +1,30 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Far_Morvarid';
+  src: url('./assets/Far_Morvarid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Far_Morvarid', 'Vazirmatn', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 @layer base {
   :root {
-    --font-vazir: 'Vazirmatn', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-morvarid: 'Far_Morvarid', 'Vazirmatn', -apple-system, BlinkMacSystemFont, sans-serif;
   }
   
   html {
-    font-family: var(--font-vazir);
+    font-family: var(--font-morvarid);
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
 
   body {
-    font-family: var(--font-vazir);
+    font-family: var(--font-morvarid);
     background-color: #f8fafc;
     color: #1e293b;
     overflow-x: hidden;

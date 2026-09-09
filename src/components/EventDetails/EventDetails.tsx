@@ -16,14 +16,7 @@ export const EventDetails: React.FC<EventDetailsProps> = ({ config }) => {
       bgColor: 'bg-sky-50',
       iconColor: 'text-sky-600',
     },
-    {
-      id: 'gregorianDate',
-      title: 'تاریخ میلادی',
-      value: config.gregorianDate,
-      icon: Star,
-      bgColor: 'bg-amber-50',
-      iconColor: 'text-amber-600',
-    },
+
     {
       id: 'eventTime',
       title: 'زمان برگزاری',
