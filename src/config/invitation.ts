@@ -21,7 +21,7 @@ export const invitationConfig: InvitationConfig = {
   addressSubTitle: "نشانی ",
   address: "همدان، میدان قائم،بلوار کولاب، باغ تالار علوم‌پزشکی",
 
-  googleMapsUrl: "https://maps.app.goo.gl/bxQxzpgMp65khz1A8",
+  googleMapsUrl: "https://www.google.com/maps/place/The+Garden+Restaurant+Medical+University/@34.7877921,48.4756584,17z/data=!4m6!3m5!1s0x3ff1eb5627071fa3:0x4241d1baa0097b77!8m2!3d34.7877921!4d48.4785944!16s%2Fg%2F12m9mj0py?entry=ttu&g_ep=EgoyMDI2MDkwNi4wIKXMDSoASAFQAw%3D%3D",
   baladUrl: "https://balad.ir/p/46obA6juqtIaeV",
   neshanUrl: "https://nshn.ir/cc_bsI_dY5D7IW",
 
