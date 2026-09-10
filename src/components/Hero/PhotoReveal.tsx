@@ -191,10 +191,10 @@ export const PhotoReveal: React.FC<PhotoRevealProps> = ({ config }) => {
 
         <p className="text-slate-600 text-sm sm:text-base font-light max-w-md mx-auto leading-relaxed">
 
-          کوچکترین عضو خانوادهمان، بزرگترین شادی قلبمان شده است.<br />
+          کوچکترین عضو خانواده‌مان، بزرگترین شادی قلبمان شده است.<br />
           با عشق و شادی، شما را دعوت میکنیم<br />
           تا در جشن به دنیا آمدنش، کنار ما باشید<br />
-          و این خاطرهی شیرین را با هم بسازیم. 👶✨
+          و این خاطره‌ی شیرین را با هم بسازیم. 👶✨
         </p>
       </motion.div>
 
