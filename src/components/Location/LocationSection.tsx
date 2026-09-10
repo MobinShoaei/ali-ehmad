@@ -16,8 +16,8 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ config }) => {
       shadowColor: 'shadow-emerald-500/25',
     },
     {
-      name: 'ویز (Waze)',
-      url: config.wazeUrl,
+      name: 'بلد',
+      url: config.baladUrl,
       icon: Navigation,
       bgGradient: 'from-sky-500 to-blue-600',
       shadowColor: 'shadow-sky-500/25',
@@ -57,7 +57,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ config }) => {
           </div>
           <div>
             <h3 className="font-bold text-slate-800 text-base sm:text-lg">
-              {config.venueName}
+              باغ تالار علوم‌پزشکی
             </h3>
             <p className="text-slate-600 text-sm sm:text-base font-light mt-1 leading-relaxed">
               {config.address}

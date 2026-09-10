@@ -9,23 +9,23 @@ export const invitationConfig: InvitationConfig = {
 
   countdownTitle: "لحظه‌شماری برای دیدن روی ماه شما",
   countdownFinishedMessage: "جشن آغاز شده است! منتظر دیدارتان هستیم ✨",
-  countdownTargetDate: "2026-10-15T18:00:00", // تاریخ قابل تنظیم برای countdown (مثلاً ۱۵ اکتبر ۲۰۲۶ ساعت ۱۸:۰۰)
+  countdownTargetDate: "2026-09-17T19:00:00", // تاریخ قابل تنظیم برای countdown (مثلاً ۱۵ اکتبر ۲۰۲۶ ساعت ۱۸:۰۰)
 
   persianDate: "پنج‌شنبه ۲۴ مهر ۱۴۰۵",
   gregorianDate: "۱۵ اکتبر ۲۰۲۶",
-  eventTime: "از ساعت ۱۸:۰۰ الی ۲۲:۰۰",
-  receptionText: "به صرف شام و پذیرایی",
+  eventTime: "از ساعت ۱۹:۰۰ الی ۲۲:۰۰",
+  receptionText: "به صرف شام و شیرینی",
 
-  venueName: "تالار تشریفات همایونی",
+  venueName: "همدان، میدان قائم، بلوار کولاب، باغ تالار علوم‌پزشکی",
   addressTitle: "منتظر دیدار شما هستیم",
-  addressSubTitle: "نشانی مراسم",
-  address: "تهران، خیابان فرشته، تالار تشریفات همایونی، سالن زمرد",
+  addressSubTitle: "نشانی ",
+  address: "همدان، میدان قائم،بلوار کولاب، باغ تالار علوم‌پزشکی",
 
-  googleMapsUrl: "https://maps.google.com/?q=Tehran",
-  wazeUrl: "https://waze.com/ul?ll=35.6892,51.3890&navigate=yes",
-  neshanUrl: "https://neshan.org/maps",
+  googleMapsUrl: "https://maps.app.goo.gl/bxQxzpgMp65khz1A8",
+  baladUrl: "https://balad.ir/p/46obA6juqtIaeV",
+  neshanUrl: "https://nshn.ir/cc_bsI_dY5D7IW",
 
-  closingMessage: "اگر افتخار میزبانی حضرتعالی را نداشتیم لطفاً اطلاع دهید",
+  closingMessage: "در صورت عدم افتخار میزبانی، لطفا اطلاع دهید.",
   closingSubtext: "با تشکر فراوان",
 
   heroImage: getAssetUrl("/images/hero.jpg"),

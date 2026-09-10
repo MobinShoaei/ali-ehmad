@@ -22,7 +22,7 @@ export interface InvitationConfig {
   addressSubTitle: string;
   address: string;
   googleMapsUrl: string;
-  wazeUrl: string;
+  baladUrl: string;
   neshanUrl: string;
   closingMessage: string;
   closingSubtext: string;

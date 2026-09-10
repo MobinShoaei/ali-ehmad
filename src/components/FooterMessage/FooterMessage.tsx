@@ -24,14 +24,16 @@ export const FooterMessage: React.FC<FooterMessageProps> = ({ config }) => {
         </div>
 
         {/* Message */}
-        <p className="text-slate-700 text-base sm:text-lg font-medium leading-relaxed mb-3">
+        <p className="text-slate-700 text-base sm:text-lg font-medium leading-relaxed ">
           {config.closingMessage}
         </p>
 
-        <p className="text-sky-800 text-lg sm:text-xl font-bold">
+        <p className="text-slate-700 text-lg sm:text-xl font-medium mb-3">
           {config.closingSubtext}
         </p>
-
+        <p className="text-sky-800 text-lg sm:text-xl font-bold">
+          ۰۹۱۹۸۹۹۴۶۹۶ - شعاعی
+        </p>
         {/* Delicate Bottom Badge */}
         <div className="mt-8 pt-6 border-t border-slate-100 flex items-center justify-center gap-1.5 text-slate-400 text-xs font-light">
           <Sparkles className="w-3.5 h-3.5 text-amber-400" />
