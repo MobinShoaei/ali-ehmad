@@ -10,7 +10,7 @@ export const EventDetails: React.FC<EventDetailsProps> = ({ config }) => {
   const details = [
     {
       id: 'persianDate',
-      title: 'تاریخ شمسی',
+      title: 'تاریخ',
       value: config.persianDate,
       icon: Calendar,
       bgColor: 'bg-sky-50',
@@ -19,7 +19,7 @@ export const EventDetails: React.FC<EventDetailsProps> = ({ config }) => {
 
     {
       id: 'eventTime',
-      title: 'زمان برگزاری',
+      title: 'زمان ',
       value: config.eventTime,
       icon: Clock,
       bgColor: 'bg-blue-50',

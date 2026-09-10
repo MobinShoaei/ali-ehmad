@@ -60,11 +60,11 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
             </AnimatePresence>
 
             {/* Caption Overlay */}
-            {images[currentIndex].caption && (
+            {/* images[currentIndex].caption && (
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/70 via-slate-900/30 to-transparent p-4 text-white text-right rounded-b-[2rem]">
                 <p className="text-sm font-semibold">{images[currentIndex].caption}</p>
               </div>
-            )}
+            )*/}
 
             {/* Lightbox Zoom Button */}
             <button
@@ -102,8 +102,8 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
             key={index}
             onClick={() => setCurrentIndex(index)}
             className={`h-2.5 rounded-full transition-all duration-300 ${index === currentIndex
-                ? 'w-8 bg-sky-600'
-                : 'w-2.5 bg-sky-200 hover:bg-sky-300'
+              ? 'w-8 bg-sky-600'
+              : 'w-2.5 bg-sky-200 hover:bg-sky-300'
               }`}
             aria-label={`رفتن به تصویر ${index + 1}`}
           />
@@ -117,8 +117,8 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
             key={img.id}
             onClick={() => setCurrentIndex(idx)}
             className={`relative rounded-xl overflow-hidden aspect-square border-2 transition-all ${idx === currentIndex
-                ? 'border-sky-500 scale-105 shadow-md'
-                : 'border-transparent opacity-60 hover:opacity-100'
+              ? 'border-sky-500 scale-105 shadow-md'
+              : 'border-transparent opacity-60 hover:opacity-100'
               }`}
           >
             <img src={img.url} alt={img.alt} className="w-full h-full object-cover" />
