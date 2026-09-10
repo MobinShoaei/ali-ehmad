@@ -189,9 +189,12 @@ export const PhotoReveal: React.FC<PhotoRevealProps> = ({ config }) => {
           {config.heroSubtitle}
         </h1>
 
-        <p className="text-slate-600 text-sm sm:text-base font-light max-w-md mx-auto">
-          دعوتید به جشن شادی‌آفرین شکفتن فرشته کوچکمان{' '}
-          <span className="font-bold text-sky-700">{config.babyName}</span>
+        <p className="text-slate-600 text-sm sm:text-base font-light max-w-md mx-auto leading-relaxed">
+          علی احماد عزیزمان 🩵<br />
+          کوچکترین عضو خانوادهمان، بزرگترین شادی قلبمان شده است.<br />
+          با عشق و شادی، شما را دعوت میکنیم<br />
+          تا در جشن به دنیا آمدنش، کنار ما باشید<br />
+          و این خاطرهی شیرین را با هم بسازیم. 👶✨
         </p>
       </motion.div>
 
