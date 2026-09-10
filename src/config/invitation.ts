@@ -11,7 +11,7 @@ export const invitationConfig: InvitationConfig = {
   countdownFinishedMessage: "جشن آغاز شده است! منتظر دیدارتان هستیم ✨",
   countdownTargetDate: "2026-09-17T19:00:00", // تاریخ قابل تنظیم برای countdown (مثلاً ۱۵ اکتبر ۲۰۲۶ ساعت ۱۸:۰۰)
 
-  persianDate: "پنج‌شنبه ۲۴ مهر ۱۴۰۵",
+  persianDate: "پنج‌شنبه ۲۶ شهریور ۱۴۰۵",
   gregorianDate: "۱۵ اکتبر ۲۰۲۶",
   eventTime: "از ساعت ۱۹:۰۰ الی ۲۲:۰۰",
   receptionText: "به صرف شام و شیرینی",
