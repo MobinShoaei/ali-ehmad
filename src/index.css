@@ -50,6 +50,42 @@
   }
 }
 
+@keyframes floatBob {
+  0%, 100% {
+    transform: translateY(0px) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+}
+
+@keyframes rock {
+  0%, 100% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: rotate(-4deg) translateX(-4px);
+  }
+  50% {
+    transform: rotate(4deg) translateX(4px);
+  }
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes pulseGlow {
   0%, 100% {
     opacity: 0.4;
@@ -89,12 +125,34 @@
   animation: floatMedium 8s ease-in-out infinite;
 }
 
+.animate-float-bob {
+  animation: floatBob 5s ease-in-out infinite;
+}
+
+.animate-rock {
+  animation: rock 3.5s ease-in-out infinite;
+}
+
+.animate-sway {
+  animation: sway 4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 14s linear infinite;
+}
+
 .animate-pulse-glow {
   animation: pulseGlow 4s ease-in-out infinite;
 }
 
 .animate-twinkle {
   animation: starTwinkle 3s ease-in-out infinite;
+}
+
+.cartoon-bg-pattern {
+  background-image: radial-gradient(rgba(186, 230, 253, 0.45) 2px, transparent 2px), radial-gradient(rgba(253, 230, 138, 0.45) 2px, transparent 2px);
+  background-position: 0 0, 24px 24px;
+  background-size: 48px 48px;
 }
 
 /* Glassmorphism Utilities */
