@@ -33,39 +33,22 @@ export const invitationConfig: InvitationConfig = {
   galleryImages: [
     {
       id: 1,
-      url: getAssetUrl("/images/hero.jpg"),
+      url: getAssetUrl("/images/2.jpg"),
       alt: "عکس نوزاد علی احماد 1",
       caption: "روی ماه فرشته کوچولو"
     },
     {
       id: 2,
-      url: getAssetUrl("/images/gallery-1.jpg"),
+      url: getAssetUrl("/images/1.jpg"),
       alt: "عکس نوزاد علی احماد 2",
       caption: "لبخند شیرین"
     },
     {
       id: 3,
-      url: getAssetUrl("/images/gallery-2.jpg"),
+      url: getAssetUrl("/images/3.jpg"),
       alt: "عکس نوزاد علی احماد 3",
       caption: "خواب ناز"
     },
-    {
-      id: 4,
-      url: getAssetUrl("/images/gallery-3.jpg"),
-      alt: "عکس نوزاد علی احماد 4",
-      caption: "شادی و بازی"
-    },
-    {
-      id: 5,
-      url: getAssetUrl("/images/gallery-4.jpg"),
-      alt: "عکس نوزاد علی احماد 5",
-      caption: "قدم‌های کوچک"
-    },
-    {
-      id: 6,
-      url: getAssetUrl("/images/gallery-5.jpg"),
-      alt: "عکس نوزاد علی احماد 6",
-      caption: "ستاره کوچک خانه"
-    }
+
   ]
 };
