@@ -190,7 +190,7 @@ export const PhotoReveal: React.FC<PhotoRevealProps> = ({ config }) => {
         </h1>
 
         <p className="text-slate-600 text-sm sm:text-base font-light max-w-md mx-auto leading-relaxed">
-          علی احماد عزیزمان 🩵<br />
+
           کوچکترین عضو خانوادهمان، بزرگترین شادی قلبمان شده است.<br />
           با عشق و شادی، شما را دعوت میکنیم<br />
           تا در جشن به دنیا آمدنش، کنار ما باشید<br />
@@ -235,9 +235,8 @@ export const PhotoReveal: React.FC<PhotoRevealProps> = ({ config }) => {
               onPointerMove={handlePointerMove}
               onPointerUp={handlePointerUp}
               onPointerCancel={handlePointerUp}
-              className={`absolute inset-0 touch-none cursor-pointer rounded-[1.8rem] transition-opacity duration-1000 ${
-                isRevealed ? 'opacity-0 pointer-events-none' : 'opacity-100'
-              }`}
+              className={`absolute inset-0 touch-none cursor-pointer rounded-[1.8rem] transition-opacity duration-1000 ${isRevealed ? 'opacity-0 pointer-events-none' : 'opacity-100'
+                }`}
             />
 
             {/* Scratch Instruction Tooltip */}
