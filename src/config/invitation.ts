@@ -28,7 +28,7 @@ export const invitationConfig: InvitationConfig = {
   closingMessage: "در صورت عدم افتخار میزبانی، لطفا اطلاع دهید.",
   closingSubtext: "با تشکر فراوان",
 
-  heroImage: getAssetUrl("/images/hero.jpg"),
+  heroImage: getAssetUrl("/images/main.jpg"),
 
   galleryImages: [
     {
