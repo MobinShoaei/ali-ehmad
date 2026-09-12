@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Volume2, VolumeX, Music, Sparkles, Check, Disc } from 'lucide-react';
+import { Volume2, VolumeX, Music, Sparkles, Check } from 'lucide-react';
 import happyBirthdayMusic from '../../assets/happy-birthday-instrumental1.mp3';
 
 export const AudioPlayer: React.FC = () => {
@@ -65,7 +65,7 @@ export const AudioPlayer: React.FC = () => {
       <div className="fixed top-4 left-4 z-40 flex items-center gap-2 select-none">
         <button
           onClick={toggleMusic}
-          className={`flex items-center gap-2.5 px-4 py-2.5 rounded-full shadow-lg border backdrop-blur-md transition-all duration-300 cursor-pointer ${isPlaying
+          className={`p-3 rounded-full shadow-lg border backdrop-blur-md transition-all duration-300 cursor-pointer ${isPlaying
             ? 'bg-gradient-to-r from-sky-500 to-blue-600 text-white border-sky-300 ring-4 ring-sky-200/50 shadow-sky-500/30'
             : 'bg-white/85 text-slate-700 border-slate-200 hover:bg-slate-50 hover:text-sky-600 shadow-slate-200/60'
             }`}
@@ -73,23 +73,9 @@ export const AudioPlayer: React.FC = () => {
           title={isPlaying ? 'قطع موزیک' : 'پخش موزیک'}
         >
           {isPlaying ? (
-            <>
-              {/* <div className="relative flex items-center justify-center">
-                <Disc className="w-5 h-5 animate-spin-slow text-amber-200" />
-                <span className="absolute -top-1 -right-1 flex h-2.5 w-2.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-amber-300"></span>
-                </span>
-              </div> */}
-              {/* <span className="text-xs font-semibold tracking-wide">در حال پخش</span> */}
-              <Volume2 className="w-4 h-4 text-sky-100" />
-            </>
+            <Volume2 className="w-5 h-5 text-white animate-pulse" />
           ) : (
-            <>
-              <VolumeX className="w-5 h-5 text-slate-500" />
-              {/* <span className="text-xs font-medium">موزیک زمینه</span> */}
-              {/* <Music className="w-3.5 h-3.5 text-slate-400" /> */}
-            </>
+            <VolumeX className="w-5 h-5 text-slate-500" />
           )}
         </button>
       </div>
