@@ -35,7 +35,7 @@ export const Gallery: React.FC<GalleryProps> = ({ config }) => {
           <span>آلبوم خاطرات</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold baby-gradient-text">
-          گالری تصاویر علی احماد
+          گالری تصاویر علی ا‌ِحماد
         </h2>
         <p className="text-slate-500 text-sm mt-1">
           گوشه‌هایی از لحظات شیرین و دوست‌داشتنی فرشته ما

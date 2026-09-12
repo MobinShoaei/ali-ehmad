@@ -2,9 +2,9 @@ import { getAssetUrl } from '../utils/assets';
 import type { InvitationConfig } from '../types/invitation';
 
 export const invitationConfig: InvitationConfig = {
-  babyName: "علی احماد",
+  babyName: "علی ا‌ِحماد",
   heroTitle: "به نام خدای علی",
-  heroSubtitle: " علی احماد عزیزمان🩵",
+  heroSubtitle: " علی ا‌ِحماد عزیزمان🩵",
   heroHintText: "برای دیدن عکس، صفحه را لمس و پاک کنید",
 
   countdownTitle: "لحظه‌شماری برای دیدن روی ماه شما",
